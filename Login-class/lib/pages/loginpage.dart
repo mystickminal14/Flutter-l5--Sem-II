@@ -31,7 +31,7 @@ class Loginpagestate extends State<Loginpage> {
                   ],
                 ),
               ),
-              SizedBox(height: 30), // Space between icons and form container
+              SizedBox(height: 10), // Space between icons and form container
 
               // Login form container
               Container(
