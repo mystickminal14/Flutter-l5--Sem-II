@@ -22,7 +22,7 @@ class _dashboardPageState extends State<dashboardPage> {
               Container(
                   height: size.height/5,
                   width: size.width/1.5,
-                  child:ClipRRect(borderRadius:BorderRadius.circular(20),child: Image.asset("images/bg.jpeg",fit: BoxFit.cover,),)
+                  child:ClipRRect(borderRadius:BorderRadius.circular(20),child: Image.asset("images/vegeta.jpg",fit: BoxFit.cover,),)
               ),
               Positioned(
                   bottom:40,
@@ -63,7 +63,7 @@ class _dashboardPageState extends State<dashboardPage> {
               Container(
                   height: size.height/7,
                   width: size.width/2.5,
-                  child:ClipRRect(borderRadius:BorderRadius.circular(20),child: Image.asset("images/bg.jpeg",fit: BoxFit.cover,),)
+                  child:ClipRRect(borderRadius:BorderRadius.circular(20),child: Image.asset("images/vegeta.jpg",fit: BoxFit.cover,),)
               ),
               Positioned(
                   top:5,
@@ -115,25 +115,7 @@ class _dashboardPageState extends State<dashboardPage> {
         mainAxisAlignment: MainAxisAlignment.start,
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // SingleChildScrollView(
-          //     scrollDirection: Axis.horizontal,
-          //     child: Row(
-          //       children: [
-          //         horizontalscrollfunc(size, 0xfffff00f),
-          //         const SizedBox(
-          //           width: 10,
-          //         ),
-          //         horizontalscrollfunc(size, 0xfffff00fa),
-          //         const SizedBox(
-          //           width: 10,
-          //         ),
-          //         horizontalscrollfunc(size, 0xfffff1115),
-          //         const SizedBox(
-          //           width: 10,
-          //         ),
-          //         horizontalscrollfunc(size, 0xfffff4445),
-          //       ],
-          //     )),
+
           Container(
             height: size.height/5,
             width: size.width/1,

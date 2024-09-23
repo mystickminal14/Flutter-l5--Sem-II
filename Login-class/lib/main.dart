@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:untitled/pages/ViewDetail.dart';
 import 'package:untitled/pages/dashboard.dart';
 
 void main() {
@@ -33,7 +34,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: dashboardPage(),
+      home: ViewPage(),
     );
   }
 }
